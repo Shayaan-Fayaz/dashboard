@@ -11,7 +11,7 @@ import java.util.Properties;
 @RequestMapping("/producer")
 public class ProducerController {
 
-    private static final String TOPIC_NAME="testy";
+    private static final String TOPIC_NAME="topic1";
     private static final String BOOTSTRAP_SERVERS = "192.168.254.237:9092";
 
     private final Producer<String, String> kafkaProducer;
